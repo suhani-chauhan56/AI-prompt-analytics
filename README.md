@@ -5,7 +5,7 @@
 
 ---
 
-## 🌟 The Story
+
 
 Imagine you've just joined an AI company — like OpenAI or Google DeepMind.
 
