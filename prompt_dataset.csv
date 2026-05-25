@@ -1,0 +1,501 @@
+prompt_id,user_id,prompt_text,category,tokens,response_quality,success_flag,hallucination_flag,response_time_ms
+1,101,Explain SQL joins,education,120,4,1,0,850
+2,102,Write Python loop,code,150,5,1,0,920
+3,103,What is AI,education,60,3,1,0,500
+4,101,Generate SQL query,code,200,4,1,0,1100
+5,104,Who won world cup,knowledge,80,2,0,1,700
+6,105,Explain machine learning,education,180,5,1,0,1200
+7,106,Create REST API,code,220,4,1,0,1400
+8,107,What is blockchain,knowledge,90,4,1,0,650
+9,108,Write HTML page,code,140,5,1,0,800
+10,109,Define database,education,70,3,1,0,400
+11,110,Explain neural network,education,200,5,1,0,1500
+12,101,SQL group by example,code,160,4,1,0,950
+13,102,Weather prediction AI,knowledge,130,2,0,1,1000
+14,103,Python list example,code,110,5,1,0,700
+15,104,History of internet,knowledge,90,3,1,0,600
+16,105,Build chatbot,code,250,4,1,0,1600
+17,106,Explain overfitting,education,170,5,1,0,1100
+18,107,What is cloud computing,knowledge,100,4,1,0,750
+19,108,SQL subquery example,code,180,4,1,0,980
+20,109,AI will take over world,knowledge,95,1,0,1,300
+21,101,Explain cryptocurrency,knowledge,239,3,1,0,801
+22,124,What is a data structure,education,76,5,1,0,478
+23,102,Explain the dark web,knowledge,57,1,0,1,1334
+24,118,Who invented the internet,knowledge,100,5,1,0,1159
+25,119,What is tokenization,education,121,1,0,0,626
+26,111,Explain the dark web,knowledge,121,2,0,1,509
+27,104,Explain regularization,education,141,3,1,0,1536
+28,124,Create a linked list in Java,code,167,5,1,0,555
+29,118,Build a React component,code,125,5,1,0,1040
+30,123,History of Linux,knowledge,67,1,0,0,892
+31,128,Explain reinforcement learning,education,75,4,1,0,869
+32,106,Write a CSS animation,code,144,3,1,0,729
+33,123,Who is Alan Turing,knowledge,289,1,0,0,650
+34,106,What is edge computing,knowledge,168,4,1,0,852
+35,108,What is the IoT,knowledge,225,3,1,0,414
+36,126,Define recursion,education,130,4,1,0,848
+37,130,What is natural language processing,education,291,5,1,0,1770
+38,121,Build a sorting algorithm,code,177,4,1,0,1616
+39,109,Create a Django model,code,85,2,1,0,1497
+40,113,Build a Docker file,code,142,2,0,0,1310
+41,128,Define recursion,education,78,2,1,0,1164
+42,113,What is quantum computing,knowledge,147,5,1,0,1258
+43,118,Who is Alan Turing,knowledge,270,1,0,0,534
+44,125,What is the IoT,knowledge,118,3,1,0,528
+45,106,Write a JavaScript promise,code,166,1,0,0,1773
+46,125,Create an async function,code,95,5,1,0,517
+47,127,Explain Web3,knowledge,213,5,1,0,1547
+48,112,What is a data structure,education,245,2,0,1,1386
+49,111,Define hyperparameter,education,175,1,0,1,1043
+50,102,Write a regex pattern,code,111,5,1,0,461
+51,127,Explain attention mechanism,education,67,5,1,0,557
+52,118,Explain attention mechanism,education,92,3,1,0,1380
+53,107,Explain the dark web,knowledge,287,5,1,0,1794
+54,123,History of Linux,knowledge,129,4,1,0,1675
+55,115,History of databases,knowledge,280,5,1,0,1224
+56,108,Explain reinforcement learning,education,66,3,1,0,343
+57,108,What is the IoT,knowledge,200,2,0,1,420
+58,129,What is supervised learning,education,58,3,1,0,445
+59,109,What is edge computing,knowledge,221,4,1,0,738
+60,124,Who created Python,knowledge,289,5,1,0,1480
+61,126,Write a regex pattern,code,171,4,1,0,689
+62,122,Explain backpropagation,education,160,3,1,0,1167
+63,128,Build a pandas dataframe,code,236,1,0,0,1623
+64,113,Define recursion,education,236,3,1,0,523
+65,107,What is natural language processing,education,187,4,1,0,587
+66,109,Write a Flask endpoint,code,168,2,0,0,1427
+67,121,Define recursion,education,188,1,0,0,784
+68,116,Define epoch in ML,education,173,2,1,0,637
+69,113,Write a Python function,code,117,4,1,0,884
+70,122,Write a unit test,code,233,4,1,0,617
+71,107,What is a Turing machine,education,297,1,0,1,1410
+72,102,Explain convolutional networks,education,62,5,1,0,1276
+73,106,History of artificial intelligence,knowledge,64,5,1,0,464
+74,120,What is supervised learning,education,67,2,0,1,1466
+75,120,Explain decision trees,education,60,5,1,0,467
+76,119,Build a Docker file,code,183,3,1,0,834
+77,108,Explain convolutional networks,education,117,4,1,0,568
+78,115,Explain Web3,knowledge,130,1,0,1,1572
+79,103,Explain cryptocurrency,knowledge,187,2,0,1,1014
+80,112,Explain reinforcement learning,education,122,2,0,1,919
+81,101,History of artificial intelligence,knowledge,220,5,1,0,913
+82,129,Explain cryptocurrency,knowledge,84,3,1,0,536
+83,105,What is cross validation,education,119,3,1,0,1538
+84,107,Explain convolutional networks,education,225,3,1,0,1335
+85,129,Create a database schema,code,282,1,0,1,1167
+86,101,Create a linked list in Java,code,135,2,0,0,1204
+87,118,Explain the dark web,knowledge,52,1,0,1,1715
+88,102,What is cross validation,education,263,3,1,0,1492
+89,114,Who created Python,knowledge,82,1,0,1,381
+90,122,Build a sorting algorithm,code,113,1,0,1,1446
+91,124,Write a bash script,code,89,2,1,0,662
+92,106,Write a Python function,code,238,3,1,0,1143
+93,109,What is edge computing,knowledge,90,1,0,1,379
+94,107,Write a regex pattern,code,259,4,1,0,1016
+95,108,Write a regex pattern,code,56,2,0,1,442
+96,121,Write a CSS animation,code,180,4,1,0,1691
+97,101,What is augmented reality,knowledge,79,3,1,0,665
+98,102,Who is Alan Turing,knowledge,77,5,1,0,1189
+99,114,Build a REST API with Node,code,205,5,1,0,536
+100,107,Build a Docker file,code,115,1,0,0,303
+101,122,What is the IoT,knowledge,234,2,0,1,1660
+102,111,Write a bash script,code,219,1,0,0,915
+103,122,Explain Web3,knowledge,154,3,1,0,1124
+104,118,Explain Web3,knowledge,82,2,0,1,1687
+105,120,What is the Metaverse,knowledge,195,3,1,0,1131
+106,110,Who invented the internet,knowledge,123,2,0,1,1640
+107,115,Build a pandas dataframe,code,163,2,0,1,647
+108,110,What is quantum computing,knowledge,181,5,1,0,986
+109,122,Explain reinforcement learning,education,129,2,0,0,394
+110,120,Explain attention mechanism,education,267,1,0,1,1589
+111,123,History of Linux,knowledge,228,4,1,0,1312
+112,105,Write a regex pattern,code,217,1,0,0,518
+113,106,Write a regex pattern,code,255,5,1,0,1251
+114,108,What is cross validation,education,284,1,0,1,1251
+115,118,History of artificial intelligence,knowledge,202,3,1,0,1206
+116,114,History of artificial intelligence,knowledge,262,5,1,0,1213
+117,115,Explain attention mechanism,education,116,2,0,0,1367
+118,109,Write a regex pattern,code,162,1,0,0,780
+119,111,Build a REST API with Node,code,278,5,1,0,465
+120,108,What is a data structure,education,148,2,0,0,1134
+121,115,Write a unit test,code,156,1,0,1,1160
+122,123,Build a Docker file,code,55,5,1,0,1079
+123,112,Write a Python function,code,126,4,1,0,1158
+124,126,What is the IoT,knowledge,204,2,0,1,1294
+125,111,Explain regularization,education,221,4,1,0,1783
+126,130,What is tokenization,education,82,5,1,0,1393
+127,119,Explain regularization,education,194,1,0,1,1177
+128,106,What is tokenization,education,62,3,1,0,1076
+129,115,Build a sorting algorithm,code,133,3,1,0,1076
+130,109,Write a JavaScript promise,code,263,1,0,1,1404
+131,108,What is transfer learning,education,216,1,0,0,1634
+132,108,Explain gradient descent,education,101,1,0,0,788
+133,122,Explain attention mechanism,education,79,5,1,0,746
+134,125,Create a database schema,code,144,2,1,0,1771
+135,110,Explain polymorphism,education,77,5,1,0,352
+136,122,Build a Docker file,code,282,4,1,0,1112
+137,103,History of Linux,knowledge,201,2,0,1,1701
+138,126,Explain cryptocurrency,knowledge,194,1,0,1,1177
+139,103,History of databases,knowledge,179,3,1,0,325
+140,104,Write a SQL join query,code,160,3,1,0,1601
+141,114,Create a Django model,code,95,5,1,0,1632
+142,126,Write a bash script,code,285,5,1,0,1290
+143,127,Write a JavaScript promise,code,237,5,1,0,849
+144,127,Write a regex pattern,code,289,1,0,1,1223
+145,119,What is tokenization,education,206,4,1,0,988
+146,128,Explain attention mechanism,education,133,2,0,1,829
+147,129,Create a database schema,code,202,3,1,0,1438
+148,107,Define precision and recall,education,71,2,1,0,792
+149,121,What is serverless computing,knowledge,232,4,1,0,1217
+150,110,What is supervised learning,education,106,4,1,0,1716
+151,122,What is a Turing machine,education,198,3,1,0,1269
+152,112,History of artificial intelligence,knowledge,158,5,1,0,977
+153,109,Build a pandas dataframe,code,128,3,1,0,772
+154,111,What is natural language processing,education,80,5,1,0,1713
+155,107,What is natural language processing,education,239,4,1,0,866
+156,125,Explain big data,knowledge,184,5,1,0,879
+157,110,What is natural language processing,education,108,3,1,0,667
+158,123,Write a Python function,code,186,2,0,1,1433
+159,121,Create a Django model,code,272,4,1,0,510
+160,110,Explain decision trees,education,170,4,1,0,1202
+161,102,Write a Flask endpoint,code,114,4,1,0,533
+162,116,Explain regularization,education,68,5,1,0,1589
+163,105,History of machine learning,knowledge,88,5,1,0,922
+164,104,Explain reinforcement learning,education,192,4,1,0,1541
+165,108,Who won Nobel prize in computing,knowledge,248,5,1,0,1079
+166,110,Build a pandas dataframe,code,270,5,1,0,1178
+167,120,Build a Docker file,code,65,5,1,0,503
+168,109,What is natural language processing,education,219,1,0,1,655
+169,106,What is quantum computing,knowledge,50,4,1,0,1222
+170,116,Who won Nobel prize in computing,knowledge,124,1,0,1,1747
+171,103,Build a pandas dataframe,code,225,2,1,0,1580
+172,114,History of Linux,knowledge,79,5,1,0,760
+173,130,Who created Python,knowledge,118,2,0,1,929
+174,130,Explain big data,knowledge,123,4,1,0,554
+175,123,Write a recursion example,code,153,3,1,0,1324
+176,115,What is serverless computing,knowledge,70,5,1,0,381
+177,120,Build a REST API with Node,code,114,1,0,1,1680
+178,101,Explain big data,knowledge,245,3,1,0,1480
+179,116,Explain polymorphism,education,182,4,1,0,869
+180,114,Explain decision trees,education,212,4,1,0,486
+181,114,Write a CSS animation,code,135,3,1,0,1672
+182,111,Explain polymorphism,education,155,4,1,0,890
+183,127,What is 5G technology,knowledge,244,5,1,0,375
+184,111,Build a React component,code,114,3,1,0,537
+185,127,Create an async function,code,50,5,1,0,1246
+186,107,Create a linked list in Java,code,182,3,1,0,1575
+187,125,Build a pandas dataframe,code,63,2,0,1,889
+188,104,Write a SQL join query,code,57,5,1,0,790
+189,110,What is the Metaverse,knowledge,191,1,0,1,490
+190,115,Explain backpropagation,education,292,1,0,0,615
+191,117,Write a recursion example,code,230,3,1,0,1150
+192,108,Write a SQL join query,code,166,5,1,0,596
+193,130,Build a sorting algorithm,code,203,5,1,0,579
+194,125,Define binary search,education,252,4,1,0,996
+195,127,Who is Alan Turing,knowledge,50,3,1,0,1786
+196,119,Build a Docker file,code,218,4,1,0,604
+197,116,Write a unit test,code,138,3,1,0,1430
+198,115,What is 5G technology,knowledge,288,3,1,0,686
+199,119,What is edge computing,knowledge,148,2,1,0,951
+200,123,What is serverless computing,knowledge,283,4,1,0,1090
+201,116,Who created Python,knowledge,296,1,0,1,1508
+202,128,Write a binary search algorithm,code,266,4,1,0,504
+203,101,Who created Java,knowledge,234,2,0,1,616
+204,126,Explain attention mechanism,education,298,3,1,0,993
+205,121,What is 5G technology,knowledge,70,3,1,0,1681
+206,111,What is 5G technology,knowledge,210,4,1,0,1408
+207,103,Define hyperparameter,education,110,3,1,0,765
+208,114,What is quantum computing,knowledge,300,1,0,0,1741
+209,106,What is tokenization,education,227,3,1,0,359
+210,126,Explain convolutional networks,education,64,3,1,0,1034
+211,105,Write a JavaScript promise,code,112,5,1,0,1143
+212,106,What is the Metaverse,knowledge,94,1,0,0,1083
+213,116,What is edge computing,knowledge,283,5,1,0,593
+214,121,What is tokenization,education,115,4,1,0,822
+215,129,Who invented the internet,knowledge,255,4,1,0,889
+216,106,What is the IoT,knowledge,68,4,1,0,1007
+217,121,Explain Web3,knowledge,296,4,1,0,1713
+218,128,Build a pandas dataframe,code,127,2,1,0,518
+219,119,Explain regularization,education,141,5,1,0,905
+220,101,Explain Web3,knowledge,300,4,1,0,862
+221,128,Explain decision trees,education,225,1,0,0,1317
+222,120,Write a regex pattern,code,255,3,1,0,748
+223,120,History of Linux,knowledge,114,2,1,0,1623
+224,126,What is a Turing machine,education,162,1,0,1,1799
+225,130,What is supervised learning,education,125,3,1,0,1150
+226,105,What is natural language processing,education,251,5,1,0,1049
+227,130,History of artificial intelligence,knowledge,119,2,0,1,1286
+228,126,Build a REST API with Node,code,79,4,1,0,454
+229,128,Explain reinforcement learning,education,223,4,1,0,1441
+230,126,Build a React component,code,151,1,0,1,553
+231,122,Write a CSS animation,code,241,3,1,0,1497
+232,104,Write a CSS animation,code,222,2,0,1,1449
+233,108,Write a bash script,code,215,1,0,0,1250
+234,121,Explain Web3,knowledge,154,1,0,1,376
+235,104,Write a SQL join query,code,74,2,0,0,1229
+236,114,Write a unit test,code,200,2,1,0,1302
+237,109,Explain the dark web,knowledge,58,3,1,0,744
+238,108,Build a pandas dataframe,code,268,3,1,0,503
+239,118,History of databases,knowledge,280,3,1,0,424
+240,107,Create a database schema,code,297,1,0,0,1231
+241,121,What is natural language processing,education,213,5,1,0,343
+242,108,Explain convolutional networks,education,82,5,1,0,720
+243,107,What is cross validation,education,200,2,0,0,602
+244,109,Who invented the internet,knowledge,269,2,1,0,657
+245,105,Explain gradient descent,education,53,3,1,0,787
+246,101,What is augmented reality,knowledge,94,3,1,0,407
+247,117,Define epoch in ML,education,79,1,0,1,1041
+248,104,Explain big data,knowledge,165,5,1,0,753
+249,124,History of machine learning,knowledge,250,5,1,0,917
+250,102,Write a Python function,code,172,4,1,0,1173
+251,116,Explain cryptocurrency,knowledge,232,4,1,0,450
+252,120,Explain convolutional networks,education,87,1,0,1,1578
+253,118,Explain big data,knowledge,232,3,1,0,1080
+254,110,History of artificial intelligence,knowledge,166,5,1,0,1539
+255,126,Write a binary search algorithm,code,229,1,0,0,1633
+256,114,History of Linux,knowledge,165,2,0,1,1116
+257,111,Write a binary search algorithm,code,159,3,1,0,1662
+258,105,Write a CSS animation,code,225,4,1,0,437
+259,103,What is supervised learning,education,160,1,0,0,1063
+260,102,What is cross validation,education,200,5,1,0,1450
+261,114,Write a binary search algorithm,code,140,4,1,0,1776
+262,120,What is a Turing machine,education,129,3,1,0,512
+263,107,History of artificial intelligence,knowledge,89,4,1,0,759
+264,128,What is transfer learning,education,192,3,1,0,535
+265,108,Build a Docker file,code,256,4,1,0,1448
+266,122,Who won Nobel prize in computing,knowledge,214,5,1,0,353
+267,101,Who is Alan Turing,knowledge,96,3,1,0,1739
+268,112,Build a REST API with Node,code,51,2,1,0,1120
+269,124,What is a data structure,education,212,1,0,1,1386
+270,114,Explain regularization,education,166,3,1,0,622
+271,124,Write a recursion example,code,133,5,1,0,1521
+272,105,Define recursion,education,90,5,1,0,401
+273,109,What is quantum computing,knowledge,163,4,1,0,1294
+274,114,Who created Java,knowledge,119,2,0,0,1180
+275,122,What is a Turing machine,education,223,5,1,0,1296
+276,102,Explain Web3,knowledge,106,4,1,0,1527
+277,107,Explain gradient descent,education,127,2,1,0,892
+278,101,Write a binary search algorithm,code,177,4,1,0,659
+279,118,Explain regularization,education,230,2,0,1,1025
+280,128,Explain regularization,education,239,1,0,1,1241
+281,119,Explain convolutional networks,education,159,5,1,0,1128
+282,110,Explain the dark web,knowledge,79,4,1,0,342
+283,126,Write a Flask endpoint,code,292,5,1,0,1242
+284,103,History of databases,knowledge,161,1,0,1,1506
+285,103,Create an async function,code,151,3,1,0,995
+286,125,Explain convolutional networks,education,93,1,0,1,533
+287,107,History of artificial intelligence,knowledge,281,3,1,0,1019
+288,108,Who created Python,knowledge,76,2,0,1,613
+289,106,What is quantum computing,knowledge,293,4,1,0,1250
+290,115,Explain big data,knowledge,224,5,1,0,1616
+291,111,Who won Nobel prize in computing,knowledge,271,3,1,0,609
+292,116,Build a React component,code,163,3,1,0,862
+293,112,History of machine learning,knowledge,179,1,0,1,1225
+294,112,Define recursion,education,262,3,1,0,457
+295,120,What is quantum computing,knowledge,202,5,1,0,1087
+296,118,Build a Docker file,code,294,1,0,1,1470
+297,111,History of Linux,knowledge,204,4,1,0,1326
+298,115,Define recursion,education,76,3,1,0,1762
+299,121,Define precision and recall,education,94,1,0,1,1196
+300,117,Create an async function,code,206,2,0,1,1093
+301,122,Build a REST API with Node,code,203,1,0,0,1625
+302,111,Build a React component,code,74,5,1,0,1689
+303,109,Write a recursion example,code,235,5,1,0,607
+304,119,Build a React component,code,219,2,0,0,1643
+305,105,What is 5G technology,knowledge,202,1,0,1,1071
+306,127,What is augmented reality,knowledge,82,5,1,0,491
+307,117,Explain the dark web,knowledge,142,1,0,1,669
+308,125,Explain convolutional networks,education,174,2,0,1,458
+309,117,Write a binary search algorithm,code,247,5,1,0,1378
+310,129,Explain convolutional networks,education,246,5,1,0,568
+311,105,What is 5G technology,knowledge,91,2,1,0,639
+312,102,Who created Java,knowledge,155,3,1,0,1685
+313,115,What is edge computing,knowledge,206,3,1,0,1219
+314,108,What is cross validation,education,129,4,1,0,697
+315,115,Build a Docker file,code,168,3,1,0,1082
+316,114,History of artificial intelligence,knowledge,297,2,1,0,583
+317,121,Create a linked list in Java,code,173,3,1,0,1435
+318,128,Define precision and recall,education,81,3,1,0,471
+319,115,Define binary search,education,281,5,1,0,601
+320,130,Build a React component,code,106,4,1,0,1015
+321,102,Define epoch in ML,education,151,5,1,0,1065
+322,103,Explain regularization,education,145,2,0,1,1763
+323,126,What is augmented reality,knowledge,87,2,0,1,1267
+324,125,Who created Python,knowledge,230,4,1,0,1218
+325,129,Who invented the internet,knowledge,70,1,0,1,606
+326,117,Who won Nobel prize in computing,knowledge,158,1,0,0,786
+327,102,Write a binary search algorithm,code,111,4,1,0,1608
+328,103,Who created Java,knowledge,78,4,1,0,1522
+329,121,Who invented the internet,knowledge,181,5,1,0,795
+330,110,Who created Python,knowledge,159,1,0,0,792
+331,106,Explain the dark web,knowledge,220,1,0,1,1038
+332,118,Define precision and recall,education,179,5,1,0,1434
+333,128,Explain regularization,education,170,1,0,0,1064
+334,112,Write a Python function,code,251,1,0,1,1645
+335,125,Explain cryptocurrency,knowledge,198,3,1,0,573
+336,118,What is transfer learning,education,136,2,1,0,1724
+337,126,Write a Flask endpoint,code,84,1,0,0,1237
+338,107,What is a Turing machine,education,61,2,0,0,935
+339,127,What is 5G technology,knowledge,189,4,1,0,818
+340,110,What is natural language processing,education,141,1,0,0,979
+341,126,Write a binary search algorithm,code,144,4,1,0,1119
+342,129,Who created Java,knowledge,294,4,1,0,994
+343,123,Explain attention mechanism,education,177,3,1,0,1363
+344,124,Build a React component,code,158,1,0,1,669
+345,111,Explain Web3,knowledge,76,1,0,1,905
+346,120,Build a pandas dataframe,code,233,4,1,0,641
+347,112,Who created Java,knowledge,164,1,0,0,1022
+348,109,Explain the dark web,knowledge,213,1,0,1,1605
+349,117,Write a CSS animation,code,255,2,0,0,1544
+350,102,Who created Java,knowledge,82,1,0,1,1621
+351,113,Write a CSS animation,code,293,5,1,0,366
+352,122,Who created Python,knowledge,165,3,1,0,1061
+353,119,Build a React component,code,85,5,1,0,1051
+354,121,Build a REST API with Node,code,121,2,0,0,681
+355,113,Create an async function,code,283,5,1,0,541
+356,123,Create a database schema,code,164,2,0,0,1305
+357,105,Explain backpropagation,education,268,1,0,1,1760
+358,126,Build a React component,code,224,3,1,0,1667
+359,118,Build a React component,code,188,3,1,0,914
+360,126,Explain polymorphism,education,142,5,1,0,759
+361,126,What is natural language processing,education,85,2,0,0,1434
+362,115,History of databases,knowledge,255,5,1,0,565
+363,103,What is quantum computing,knowledge,129,4,1,0,1768
+364,117,What is serverless computing,knowledge,155,4,1,0,1477
+365,111,What is a data structure,education,214,1,0,1,1692
+366,105,History of databases,knowledge,274,5,1,0,1610
+367,125,What is the Metaverse,knowledge,297,2,0,1,413
+368,105,Define precision and recall,education,127,2,0,1,761
+369,129,Create an async function,code,122,1,0,1,1600
+370,105,Who is Alan Turing,knowledge,210,3,1,0,1558
+371,117,What is quantum computing,knowledge,214,2,0,1,650
+372,124,Who won Nobel prize in computing,knowledge,280,5,1,0,991
+373,127,History of machine learning,knowledge,271,1,0,1,1613
+374,121,Who is Alan Turing,knowledge,103,5,1,0,1153
+375,116,Who invented the internet,knowledge,277,5,1,0,893
+376,116,Explain Web3,knowledge,112,4,1,0,909
+377,123,Build a React component,code,65,2,0,1,717
+378,105,Write a bash script,code,130,3,1,0,1007
+379,125,Create a Django model,code,144,5,1,0,1450
+380,108,Explain convolutional networks,education,169,1,0,1,807
+381,102,Explain backpropagation,education,124,4,1,0,1560
+382,128,Write a regex pattern,code,280,2,1,0,1776
+383,125,Build a sorting algorithm,code,90,4,1,0,1354
+384,129,Write a SQL join query,code,128,4,1,0,347
+385,117,Explain regularization,education,167,2,0,1,403
+386,120,Write a SQL join query,code,275,4,1,0,885
+387,128,Who invented the internet,knowledge,77,4,1,0,574
+388,125,Write a CSS animation,code,153,3,1,0,392
+389,119,Create a linked list in Java,code,193,2,0,1,1091
+390,125,Who created Java,knowledge,190,3,1,0,1576
+391,104,Who won Nobel prize in computing,knowledge,82,1,0,1,994
+392,125,History of databases,knowledge,86,2,1,0,382
+393,105,Define recursion,education,232,3,1,0,1270
+394,105,Who created Java,knowledge,205,5,1,0,586
+395,111,Write a bash script,code,91,4,1,0,1562
+396,119,Explain Web3,knowledge,136,5,1,0,1343
+397,123,What is serverless computing,knowledge,194,3,1,0,1272
+398,111,What is transfer learning,education,222,1,0,0,1495
+399,120,Write a Python function,code,171,3,1,0,1642
+400,108,Explain big data,knowledge,234,1,0,1,649
+401,125,Who won Nobel prize in computing,knowledge,265,4,1,0,602
+402,102,What is edge computing,knowledge,196,1,0,1,1203
+403,105,Write a JavaScript promise,code,155,2,0,1,1265
+404,123,History of machine learning,knowledge,85,5,1,0,724
+405,122,What is augmented reality,knowledge,172,5,1,0,1071
+406,115,Write a Flask endpoint,code,283,5,1,0,1001
+407,122,History of databases,knowledge,247,3,1,0,1549
+408,108,Build a sorting algorithm,code,121,5,1,0,911
+409,125,What is a Turing machine,education,123,2,1,0,1282
+410,130,Write a unit test,code,289,3,1,0,889
+411,122,Explain decision trees,education,189,4,1,0,1108
+412,110,Create a Django model,code,60,3,1,0,1762
+413,130,What is transfer learning,education,163,3,1,0,1281
+414,127,What is natural language processing,education,187,3,1,0,1451
+415,105,Who is Alan Turing,knowledge,77,5,1,0,1501
+416,102,Explain reinforcement learning,education,221,5,1,0,762
+417,102,What is edge computing,knowledge,75,4,1,0,976
+418,104,What is serverless computing,knowledge,224,2,0,1,623
+419,116,Write a SQL join query,code,216,2,0,0,884
+420,130,History of machine learning,knowledge,246,1,0,0,775
+421,130,History of machine learning,knowledge,285,2,0,1,374
+422,106,Write a SQL join query,code,289,3,1,0,376
+423,119,What is a Turing machine,education,204,1,0,0,986
+424,121,Build a pandas dataframe,code,189,5,1,0,1311
+425,115,Define precision and recall,education,119,2,0,0,1797
+426,123,Create a database schema,code,97,1,0,0,904
+427,106,History of Linux,knowledge,206,4,1,0,1175
+428,103,What is augmented reality,knowledge,152,1,0,1,587
+429,130,Build a REST API with Node,code,113,1,0,1,782
+430,111,Create a database schema,code,127,5,1,0,1780
+431,109,Who invented the internet,knowledge,217,3,1,0,1718
+432,122,Define recursion,education,80,4,1,0,928
+433,122,Explain regularization,education,178,3,1,0,1713
+434,112,What is a Turing machine,education,207,2,0,1,613
+435,112,Write a bash script,code,156,5,1,0,1264
+436,125,History of Linux,knowledge,113,5,1,0,467
+437,117,Who created Java,knowledge,230,3,1,0,459
+438,102,Explain cryptocurrency,knowledge,262,5,1,0,1335
+439,118,Explain decision trees,education,88,2,0,1,538
+440,123,History of Linux,knowledge,199,4,1,0,486
+441,126,Who created Java,knowledge,64,4,1,0,570
+442,115,Explain the dark web,knowledge,194,1,0,1,1677
+443,113,Write a Python function,code,115,1,0,0,1484
+444,114,Define recursion,education,138,1,0,1,423
+445,102,Explain attention mechanism,education,123,4,1,0,668
+446,112,Define epoch in ML,education,278,4,1,0,1218
+447,103,Create a Python class,code,224,5,1,0,572
+448,104,History of databases,knowledge,95,5,1,0,1104
+449,124,Who created Python,knowledge,300,2,1,0,911
+450,114,Write a unit test,code,186,4,1,0,770
+451,112,What is tokenization,education,89,3,1,0,686
+452,102,Explain cryptocurrency,knowledge,257,4,1,0,1559
+453,107,Explain reinforcement learning,education,67,1,0,1,1214
+454,108,History of machine learning,knowledge,239,1,0,1,779
+455,125,History of Linux,knowledge,271,1,0,1,892
+456,111,Explain decision trees,education,197,5,1,0,1677
+457,110,Write a regex pattern,code,274,2,1,0,1146
+458,102,Create a database schema,code,192,5,1,0,658
+459,118,Explain the dark web,knowledge,176,1,0,0,1617
+460,126,What is 5G technology,knowledge,184,3,1,0,1726
+461,105,Write a JavaScript promise,code,126,4,1,0,676
+462,108,What is serverless computing,knowledge,267,2,0,1,1248
+463,114,What is cross validation,education,297,4,1,0,1441
+464,113,Who created Python,knowledge,112,3,1,0,716
+465,130,Build a React component,code,165,3,1,0,489
+466,102,History of Linux,knowledge,118,4,1,0,1679
+467,102,Who won Nobel prize in computing,knowledge,273,1,0,1,1503
+468,107,What is the IoT,knowledge,172,2,0,0,331
+469,124,What is natural language processing,education,80,4,1,0,796
+470,123,Who won Nobel prize in computing,knowledge,102,4,1,0,790
+471,125,What is augmented reality,knowledge,122,4,1,0,1254
+472,110,History of databases,knowledge,116,3,1,0,1350
+473,104,Build a pandas dataframe,code,255,4,1,0,955
+474,111,What is transfer learning,education,155,1,0,1,753
+475,101,Who created Python,knowledge,116,5,1,0,1496
+476,110,Explain the dark web,knowledge,89,2,0,1,803
+477,121,Write a unit test,code,291,3,1,0,827
+478,115,Write a SQL join query,code,93,3,1,0,646
+479,116,What is cross validation,education,97,5,1,0,1614
+480,102,Define precision and recall,education,264,1,0,0,1668
+481,114,Explain gradient descent,education,85,2,0,1,747
+482,112,Who created Java,knowledge,65,5,1,0,1606
+483,130,Who won Nobel prize in computing,knowledge,173,4,1,0,332
+484,118,What is cross validation,education,155,1,0,1,1779
+485,110,Write a unit test,code,54,5,1,0,1729
+486,126,Explain the dark web,knowledge,290,2,0,1,604
+487,120,What is natural language processing,education,184,3,1,0,1025
+488,103,Create a Python class,code,145,4,1,0,1240
+489,123,What is edge computing,knowledge,107,3,1,0,1700
+490,103,Define recursion,education,153,4,1,0,1072
+491,102,What is serverless computing,knowledge,213,1,0,0,469
+492,121,Write a JavaScript promise,code,250,3,1,0,1458
+493,130,Define precision and recall,education,60,2,0,1,1460
+494,102,Create a database schema,code,286,1,0,0,874
+495,122,Explain big data,knowledge,58,2,0,0,724
+496,125,Who created Python,knowledge,260,4,1,0,457
+497,119,Write a Flask endpoint,code,111,5,1,0,1096
+498,111,What is the IoT,knowledge,148,2,1,0,460
+499,102,History of databases,knowledge,75,4,1,0,775
+500,120,Explain convolutional networks,education,246,5,1,0,1519
