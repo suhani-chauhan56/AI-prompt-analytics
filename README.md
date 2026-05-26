@@ -188,26 +188,187 @@ ORDER BY response_quality ASC;
 
 ---
 
-## 📊 Key Insights
+## 📈 Business Insights & Project Outcomes
 
-| Area | Finding |
-|---|---|
-| 🧑‍💻 Code prompts | Best performance — highest quality & success rate |
-| 📘 Education prompts | Stable and consistent across all metrics |
-| 🌍 Knowledge prompts | Highest hallucination risk |
-| 🎯 Token sweet spot | 100–200 tokens gave the best quality scores |
-| 🔴 Hallucination pattern | Strongly correlated with quality scores of 1–2 |
+After analyzing AI prompt data using SQL, several meaningful business insights were discovered.
+
+These findings transform the project from a simple SQL practice project into a real-world AI analytics case study.
 
 ---
 
-## 🏆 Outcomes
+## 🔥 Key Insights Discovered
 
-This project delivers a **Mini AI Analytics Engine — built entirely in SQL** that:
+### 1️⃣ Long Prompts Increase Hallucination Risk
 
-- 🔍 Measures AI performance at scale
-- 🧠 Pinpoints where and why AI fails
-- 👤 Reveals real user behavior patterns
-- 🛡️ Identifies risk prompts for AI safety improvements
+Analysis showed that prompts with higher token counts were more likely to generate hallucinated or incorrect AI responses.
+
+### 📌 Outcome
+- Long and complex prompts confused the AI more frequently.
+- Hallucination probability increased significantly for prompts above the optimal token range.
+- Prompt optimization can improve AI reliability and response accuracy.
+
+### SQL Query
+
+```sql
+SELECT 
+  CASE 
+    WHEN tokens > 250 THEN 'Long Prompt'
+    ELSE 'Short Prompt'
+  END AS prompt_type,
+  
+  COUNT(*) AS total_prompts,
+  
+  SUM(hallucination_flag) AS hallucinated_prompts,
+  
+  ROUND(
+      (SUM(hallucination_flag) / COUNT(*)) * 100,
+      2
+  ) AS hallucination_rate_pct
+
+FROM prompts
+GROUP BY prompt_type;
+```
+
+---
+
+## 2️⃣ Coding Prompts Have Highest Engagement
+
+Technical prompts such as coding and SQL queries generated the highest user interaction and response quality scores.
+
+### 📌 Outcome
+- Users spent more time interacting with coding-related prompts.
+- Developer-focused prompts produced higher engagement and better AI performance.
+- AI tools targeted toward programming assistance may improve user retention.
+
+### SQL Query
+
+```sql
+SELECT 
+    category,
+    
+    COUNT(*) AS total_prompts,
+    
+    ROUND(AVG(response_quality), 2) AS avg_quality,
+    
+    SUM(success_flag) AS successful_prompts
+
+FROM prompts
+GROUP BY category
+ORDER BY total_prompts DESC;
+```
+
+---
+
+## 3️⃣ Follow-up Prompts Indicate Better User Satisfaction
+
+Users who continued conversations with multiple follow-up prompts showed stronger engagement behavior.
+
+### 📌 Outcome
+- Multi-turn conversations indicated higher satisfaction levels.
+- Users were more likely to continue interacting when responses were useful.
+- Conversational AI systems benefit from interactive engagement patterns.
+
+### SQL Query
+
+```sql
+SELECT 
+    user_id,
+    
+    COUNT(*) AS total_prompts,
+    
+    ROUND(AVG(response_quality), 2) AS avg_quality,
+    
+    SUM(success_flag) AS successful_interactions
+
+FROM prompts
+GROUP BY user_id
+HAVING COUNT(*) > 5
+ORDER BY total_prompts DESC;
+```
+
+---
+
+## 4️⃣ Faster Responses Produce Better Quality Ratings
+
+Response speed had a noticeable impact on perceived response quality.
+
+### 📌 Outcome
+- Faster responses generally received better quality scores.
+- Slow responses were more commonly associated with hallucinations and failed interactions.
+- AI latency optimization can improve user experience.
+
+### SQL Query
+
+```sql
+SELECT 
+  CASE 
+    WHEN response_time_ms < 600 THEN 'Fast'
+    WHEN response_time_ms < 1200 THEN 'Medium'
+    ELSE 'Slow'
+  END AS response_speed,
+
+  ROUND(AVG(response_quality), 2) AS avg_quality,
+  
+  COUNT(*) AS total_responses
+
+FROM prompts
+GROUP BY response_speed
+ORDER BY avg_quality DESC;
+```
+
+---
+
+## 5️⃣ Token Efficiency Impacts AI Performance
+
+The analysis identified an optimal token range where AI responses achieved the best balance between quality and efficiency.
+
+### 📌 Outcome
+- Prompts between 100–200 tokens produced the best response quality.
+- Extremely short prompts lacked context.
+- Very large prompts reduced efficiency and increased hallucination risk.
+
+### SQL Query
+
+```sql
+SELECT 
+  CASE 
+    WHEN tokens BETWEEN 100 AND 200 THEN 'Optimal Token Range'
+    ELSE 'Non Optimal'
+  END AS token_category,
+
+  ROUND(AVG(response_quality), 2) AS avg_quality,
+
+  ROUND(AVG(tokens), 0) AS avg_tokens
+
+FROM prompts
+GROUP BY token_category;
+```
+
+---
+
+# 🏆 Final Project Outcomes
+
+This project successfully demonstrated how SQL analytics can be used to:
+
+✅ Measure AI response quality  
+✅ Detect hallucination patterns  
+✅ Analyze user engagement behavior  
+✅ Track token efficiency  
+✅ Evaluate AI performance metrics  
+✅ Generate business-level insights from conversational AI data  
+
+---
+
+# 💡 Business Impact
+
+The analytics generated from this project can help organizations:
+
+- Improve AI reliability
+- Reduce hallucination risks
+- Optimize token usage costs
+- Enhance user satisfaction
+- Improve prompt engineering strategies
+- Build safer AI systems
 
 ---
 
